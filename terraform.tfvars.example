@@ -1,0 +1,12 @@
+# ----------------------------------------
+# Cloudflare Authentication
+# ----------------------------------------
+cloudflare_api_token = "your-cloudflare-api-token-here"
+cloudflare_account_id = "your-cloudflare-account-id-here"
+
+# ----------------------------------------
+# R2 Bucket Configuration
+# ----------------------------------------
+bucket_name = "example-r2-bucket"
+location = "WNAM"  # Western North America
+# Options: WNAM, ENAM, WEUR, EEUR, APAC, OC 

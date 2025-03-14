@@ -1,0 +1,58 @@
+# ----------------------------------------
+# Terraform Files
+# ----------------------------------------
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Terraform lock files
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+crash.*.log
+
+# ----------------------------------------
+# Sensitive Data
+# ----------------------------------------
+# Exclude tfvars files that might contain sensitive data
+*.tfvars
+!terraform.tfvars.example
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# ----------------------------------------
+# Environment Files
+# ----------------------------------------
+# Ignore local environment files
+.env
+.envrc
+
+# ----------------------------------------
+# IDE Files
+# ----------------------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# ----------------------------------------
+# OS Files
+# ----------------------------------------
+# Mac
+.DS_Store
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini 
